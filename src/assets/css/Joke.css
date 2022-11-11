@@ -1,0 +1,34 @@
+.fa-arrow-up, .fa-arrow-down {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.vote {
+    border: 4px solid red;
+    border-radius: 50%;
+    font-size: 1.5em;
+    box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1);
+}
+
+.smiley {
+    font-size: 3em;
+    /* box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.upvote {
+    transition: 0.3s;
+}
+
+.upvote:hover {
+    transform: translate(0, -10px);
+    color: green;
+}
+
+.downvote {
+    transition: 0.3s;
+}
+
+.downvote:hover {
+    transform: translate(0, 10px);
+    color: red;
+}
